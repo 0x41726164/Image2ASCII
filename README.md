@@ -21,10 +21,8 @@ Image2ASCII is a Python script that converts images into ASCII art and displays 
 
 4. Available options:
 - `--img`: Path to the image file. Default is "image.png".
-- `--dim`: The dimension by which to divide the image. Default is 20.
-
-  For example, if the original image is 100x100 and --dim is 2, the resulting output will be 50x50.
-- `--dob`: Specify 0 if the image is dark, or 1 if the image is bright. Default is 0.
+- `--dim`: The dimension by which to divide the image. Default is 20. (e.g. if the original size is 100x120 and dim is 2, the resulting output will be 50x60.)
+- `--dob`: Specify 0 if the background is dark, or 1 if the image is bright. Default is 0. (Flipping this value will Invert the result.)
 - `--lod`: Level of detail. Use 0 for minimalism, 2 for maximalism. Default is 1.
 
 5. The converted ASCII art will be displayed in the Terminal.
