@@ -13,11 +13,15 @@ Image2ASCII is a Python script that converts images into ASCII art and displays 
 
 2. Install the required dependencies using pip:
 
-`pip install pillow`
+```
+$ pip install pillow
+```
 
 4. Run the script with the desired options:
 
-`python image2ascii.py [--img IMAGE] [--dim DIMENSION] [--dob {0,1}] [--lod {0,1,2}]`
+```
+$ python image2ascii.py [--img IMAGE] [--dim DIMENSION] [--dob {0,1}] [--lod {0,1,2}]
+```
 
 4. Available options:
 - `--img`: Path to the image file. Default is "image.png".
@@ -31,17 +35,19 @@ Image2ASCII is a Python script that converts images into ASCII art and displays 
 
 Here are some example usage cases sample images that demonstrate the output:
 
-`py image2ascii.py --img dog.png --dim 30 --dob 1 --lod 1`
+```
+$ py image2ascii.py --img dog.png --dim 30 --dob 1 --lod 1
+```
 
 ![Dog Example Image](dog-example.png)
 
 In this next example, all preset LODs (Level of Detail) were used:
 
-`py image2ascii.py --dim 18 --lod 0`
-
-`py image2ascii.py --dim 18 --lod 1`
-
-`py image2ascii.py --dim 18 --lod 2`
+```
+$ py image2ascii.py --dim 18 --lod 0
+$ py image2ascii.py --dim 18 --lod 1
+$ py image2ascii.py --dim 18 --lod 2
+```
 
 ![Ergo Proxy Example Image](ergo-example.png)
 
