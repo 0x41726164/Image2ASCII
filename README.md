@@ -15,13 +15,15 @@ Image2ASCII is a Python script that converts images into ASCII art and displays 
 
 `pip install pillow`
 
-3. Run the script with the desired options:
+4. Run the script with the desired options:
 
 `python image2ascii.py [--img IMAGE] [--dim DIMENSION] [--dob {0,1}] [--lod {0,1,2}]`
 
 4. Available options:
 - `--img`: Path to the image file. Default is "image.png".
-- `--dim`: The dimension by which to divide the image. Default is 20. For example, if the original image is 100x100 and `--dim` is 2, the resulting output will be 50x50.
+- `--dim`: The dimension by which to divide the image. Default is 20.
+
+  For example, if the original image is 100x100 and --dim is 2, the resulting output will be 50x50.
 - `--dob`: Specify 0 if the image is dark, or 1 if the image is bright. Default is 0.
 - `--lod`: Level of detail. Use 0 for minimalism, 2 for maximalism. Default is 1.
 
